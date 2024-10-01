@@ -24,10 +24,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-jobs:
+
   checkout:
     runs-on: ubuntu-latest
-    
+
     steps:
       # Step 1: Checkout the code from the repository
       - name: Checkout code
